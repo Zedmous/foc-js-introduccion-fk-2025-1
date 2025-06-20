@@ -1,0 +1,19 @@
+{
+  "name": "iujo-foc-js-introduccion-node-js-2025-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "segundo": "node ./clases/ejemplo",
+    "tercero": "node ./clases/ejemplo && node app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.1",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "colors": "^1.4.0"
+  }
+}
