@@ -6,7 +6,7 @@ class Pokemon {
     }
     //funcion de flecha con async
     getPokemonByName = async (name) => {
-        //esto es el consumo de una api, y esel ejemplo de uso del async y el await
+        //esto es el consumo de una api, y es el ejemplo de uso del async y el await
         try {
             const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${name}`);
             console.log("respuesta del server");
